@@ -28,3 +28,10 @@ reference to https://www.softwarecollections.org/en/scls/rhscl/devtoolset-7/
 ## last
 
 Source install
+
+
+## Run command
+
+Working arguments
+
+`localhost 3000 4 ~/doc ~/ssl/server.key ~/ssl/server.crt`
