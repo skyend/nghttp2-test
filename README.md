@@ -2,24 +2,28 @@
 
 
 
-1. Poco Lib
+# 1. Poco Lib
 
 Source install
 
-2. Boost Lib
+# 2. Boost Lib
 
 Source install
 
-3. nghttp2 
+# 3. nghttp2 
+  
+## install libraries
 
-yum install epel-release
+```
+c-ares-devel
+libev-devel
+openssl-devel
+zlib-devel
+```
 
-yum install nghttp2
+##install gcc7
+
+reference to https://www.softwarecollections.org/en/scls/rhscl/devtoolset-7/
 
 
-
-sudo apt-get install g++ make binutils autoconf automake autotools-dev libtool pkg-config \
-  zlib1g-dev libcunit1-dev libssl-dev libxml2-dev libev-dev libevent-dev libjansson-dev \
-  libc-ares-dev libjemalloc-dev libsystemd-dev \
-  cython python3-dev python-setuptools
-
+Source install
